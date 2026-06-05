@@ -58,3 +58,28 @@ Open the project in VS Code. From here you'll be able to see all of the folders 
 In VS Code, pressing CRTL + SHIFT + B will cause the task to run. For this project that should cause WLA DX to assemble your project, and then open up the newly assembled ROM in Emulicious!
 
 ## Creating your own backgrounds
+
+### Experimenting with different background
+Included in this repo is a second set of unused Maps, Palettes and Tiles. Before making your own graphics, you might want to try and see if you can replace the Steelfinger Studios screen with the unused set. This can be done by replacing the file references of the .INCLUDE lines of exampleScreen.asm with the file reference of the unused graphics data. If you can get that working, then you should be able to get your own graphics working too!
+
+### Design your graphics
+The SMS can handle up to 16 colors for background tiles, and has a resolution of 256x192 pixels. However, graphics are made up 448 tiles that can be flipped vertically and/or horizontally. Mathematically, that is fewer tiles than there are background map tiles, so some tiles will need to be reused in order to get a full screen's worth of graphics. 
+
+The rest of this guide assumes the user to be using Aseprite with the SMS/GG Graphics Exporter, but the previously mentioned free versions should work if using uncompressed .inc files.
+
+### Exporting your graphics
+More detailed instructions on creating graphics can be found in the SMS/GG Graphics Exporter repo, but the basic idea is that you need your image to be using indexed color, and use only 16 colors in total. Tiles will automatically be set to the vertical, horizontal or diagonal mirror of themselves when exported. If you follow the exporter's prompts for generating the background map, you should be given 3 files: __Map.inc, __Pal.inc and __Tiles.inc.
+
+As we did earlier, replace the file references of the .INCLUDE lines of exampleScreen.asm with the file reference of your new graphics data. Note that the file references are in reference to the current folder by default, so you may need to lead them with ../
+
+### Viewing your graphics
+Now you just need to reassemble your project and load up the ROM to see if it worked!
+
+## Where to go from here?
+
+From here, I highly recommend reading through the rest of the code in this repository. The overall structure is my own personal style, so if you think the organization of files and folders is weird, change it! Experiment! See if you can build something beyond this simple "Hello World" style program. This repository doesn't equip you with any sprite capability, but SMSPower.org has a lot resources, so if you aren't afraid of some reading, you should be able to figure it out!
+
+
+
+
+
