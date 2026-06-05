@@ -20,7 +20,7 @@
 			"label": "SMS Batch File Run",
 			"type": "shell",
 			"windows":{
-				"command": "../Scripts/buildSMS.bat"
+				"command": "..\\Scripts\\buildSMS.bat"
 			},
 			"linux":{
 				"command": "bash ../Scripts/buildSMS.sh"
