@@ -32,7 +32,7 @@ https://www.aseprite.org/
 ### SMS/GG Graphics Exporter
 This is the script I wrote for Aseprite in order to turn Aseprite drawings into code for the SMS or Game Gear. For the remainder of this tutorial, I will be referring to Aseprite and my Graphics Exporter script.
 
-https://github.com/Bofner/SMS-GG-Aseprite-Exporter
+https://steelfinger-studios.itch.io/master-system-game-gear-graphics-exporter-for-aseprite
 
 ### Free Alternative Export method
 
