@@ -14,12 +14,14 @@ https://github.com/vhelin/wla-dx
 
 This is the assembler for our Hello World project. You'll need this in order to turn your code into a ROM. I've supplied Tasks for VS Code, so if you use VS Code, then you'll be able to use those tasks to get the WLA DX running and exporting properly as long as your folder pathing is consistent with the tasks and scripts I wrote. 
 
+
 ### Strongly Recommended
 
 #### Emulicious
 This is far and away the best Emulator for debugging the SMS, at least in my opinion. I won't stop you from using other emulators, but you'll have to adjust the scripts if you wish to use something else, at least if you want the game to auto-launch when you assemble the code.
 
 https://emulicious.net/
+
 
 ### Recommended for experimentation
 If you just want to compile the code as-is, then you don't NEED these, but if you want to be able to display your own graphics, then I highly recommend these downloads as well. There are alternative methods for creating graphics, but this is what I recommend.
