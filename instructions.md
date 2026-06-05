@@ -36,7 +36,7 @@ This is the script I wrote for Aseprite in order to turn Aseprite drawings into 
 
 https://steelfinger-studios.itch.io/master-system-game-gear-graphics-exporter-for-aseprite
 
-### Free Alternative Export method
+### Free Alternative Graphics Export method
 
 #### MS Paint & BMP2Tile
 While MS Paint can get the job done, I can't really recommend it. It'll work in a pinch. BMP2Tile on the other hand is a great piece of software by Maxim over at SMS Power! I used exclusively when developing Space Tonbow, and it works great, but (at least at the time of publishing this) doesn't support setting individual background tiles to use the sprite palette, have priority over sprites, or any of the software bits. But I was able to make an entire game using it, so it's a great alternative!
