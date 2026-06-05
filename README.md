@@ -6,7 +6,7 @@ A template for creating your own SMS programs in assembly!
 ## Purpose
 The purpose of this project is for anyone to be able to view their own Sega Master System drawings running on real hardware. It's also a glimpse at all of the compenents needed in order to get simple background graphics running on the SMS. Think of this as your Z80 assembly "Hello World" for the SMS. 
 
-## Prequisite Downloads
+## Prerequisite Downloads
 
 ### Hard Requirements
 
