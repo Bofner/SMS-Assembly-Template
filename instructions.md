@@ -43,4 +43,18 @@ While MS Paint can get the job done, I can't really recommend it. It'll work in 
 
 https://github.com/maxim-zhao/bmp2tile
 
-## Step 1
+## The Initial Assembley
+
+### Step 1
+Get the necessary WLA DX files into the "WLADX" folder of this repo. I've made the folder for you, just make sure to put them int the folder. They should be correct already, but it may be worth double checking the scripts in the "scripts" folder to make sure that the names match the WLA DX files that you have. 
+
+### Step 2
+The scripts won't work without Emulicious, so either change the scripts to call the emulator of your choice, or place your download of emulicious in the "Emulicious" folder. You'll want to make sure you have Java installed as well, as Emulicious requires it. 
+
+### Step 3
+Open the project in VS Code. From here you'll be able to see all of the folders that contain all of the files for this project. Everything should be good to go from here.
+
+### Step 4
+In VS Code, pressing CRTL + SHIFT + B will cause the task to run. For this project that should cause WLA DX to assemble your project, and then open up the newly assembled ROM in Emulicious!
+
+## Creating your own backgrounds
