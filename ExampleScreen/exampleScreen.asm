@@ -69,7 +69,7 @@ InitExample:
 ;  Load Example Tiles
 ; ==============================================================
     @VideoRAM:
-    ; Load SteelFinger Studios Screen
+    ; Load Example Screen Tiles
         ld hl, $0000 | VRAM_WRITE
         call SetVDPAddress
         ld hl, ExampleTiles
